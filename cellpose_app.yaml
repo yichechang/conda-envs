@@ -1,0 +1,8 @@
+name: cellpose_app
+channels:
+  - conda-forge
+dependencies:
+  - python =3.10
+  - pip
+  - pip:
+    - cellpose[gui]
